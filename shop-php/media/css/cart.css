@@ -1,0 +1,165 @@
+.main-cart1 {}
+
+/* description */
+
+.cart__items__description {
+    width: 95%;
+    height: 70px;
+    margin: auto;
+    margin-top: 20px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    background: #0098DD;
+}
+
+.cart__items__description__text {
+    width: 23%;
+
+    font-size: 30px;
+    color: white;
+    padding-top: 1%;
+}
+
+/* cart items */
+
+.cart__items {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.cart__item {
+    display: flex;
+
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.cart__item__image {
+    width: 300px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.cart__item__name {
+    text-align: center;
+    width: 240px;
+
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+.cart__item__change__buttons {
+    width: 200px;
+    margin-left: 12%;
+    margin-top: 2%;
+
+    text-align: center;
+}
+
+
+.minus-goods,
+.plus-goods,
+.del-goods {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #BBBBBB;
+
+    transition: background 0.5s;
+}
+
+.plus-goods:hover,
+.minus-goods:hover,
+.del-goods:hover{
+    background: grey;
+}
+
+.plus-goods {}
+
+.item__count {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    font-size: 25px;
+}
+
+.cart__item__cost {
+    margin-left: 14%;
+
+    width: 133px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+.cart__item__cost__text {}
+
+.del-goods {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+/* empty order message */
+
+.empty__order {
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 40px;
+}
+
+/* email filed */
+
+.email-field {
+
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.name__field,
+.email__field,
+.phone__field{
+
+    border-radius: 15px;
+
+    height: 90px;
+    text-align: center;
+    font-size: 25px;
+
+    border: none;
+
+    margin-bottom: 10px;
+    margin-left: 50px;
+
+    background: #E6E6E6;
+}
+
+
+.send-email {
+    height: 90px;
+    text-align: center;
+    font-size: 25px;
+
+    border: none;
+    border-radius: 15px;
+
+    background: #0098DD;
+
+    margin-bottom: 10px;
+    margin-left: 50px;
+
+    transition: background 0.5s;
+}
+
+.send-email:hover{
+    background: #403866;
+}

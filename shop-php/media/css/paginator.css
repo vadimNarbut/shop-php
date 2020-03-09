@@ -1,0 +1,33 @@
+.paginator{
+  width: 100%;
+
+}
+
+.pag__container{
+  display: flex;
+  align-items: center;
+
+
+  justify-content: space-between;
+}
+
+.pag__button a{
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px 8px;
+
+  border: 2px solid black;
+
+  color:black;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition: background-color  .4s linear,
+  color .4s linear;
+}
+
+.pag__button a:hover{
+  background-color: black;
+  color: white;
+}

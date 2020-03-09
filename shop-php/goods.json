@@ -1,0 +1,66 @@
+{
+    "1": {
+      "name": "sony zp-250",
+      "cost": 2651,
+      "description": "semper nisi. Aenean vulputate eleifend tellus. Aen..",
+      "order": 3,
+      "img" : "sony_zp-250.jpg"
+    },
+    "2": {
+      "name": "Iphone X pro max max pro",
+      "cost": 999999,
+      "description": "semper nisi. Aenean vulputate eleifend tellus. Aen..",
+      "order": 3,
+      "img" : "Iphone.jpg"
+    },
+    "3": {
+      "name": "Samsung G34",
+      "cost": 2001222222,
+      "description": "semper nisi. Aenean vulputate eleifend tellus. Aen..",
+      "order": 3,
+      "img" : "Samsung.jpg"
+    },
+    "4": {
+      "name": "Xiaomi Redmi 5",
+      "cost": 2651,
+      "description": "semper nisi. Aenean vulputate eleifend tellus. Aen..",
+      "order": 3,
+      "img" : "Xiaomi.jpg"
+    },
+    "5": {
+      "name": "Horizont",
+      "cost": 2651,
+      "description": "semper nisi. Aenean vulputate eleifend tellus. Aen..",
+      "order": 3,
+      "img" : "Horizont.jpg"
+    },
+    "6": {
+      "name": "Samsung UE32N5000AU",
+      "cost": 2651,
+      "description": "semper nisi. Aenean vulputate eleifend tellus. Aen..",
+      "order": 3,
+      "img" : "9hq.webp"
+    },
+    "7": {
+      "name": "Thompson T43D19SFS-01W",
+      "cost": 2651,
+      "description": "semper nisi. Aenean vulputate eleifend tellus. Aen..",
+      "order": 3,
+      "img" : "Thompson.png"
+    },
+    "8": {
+      "name": "QLED Samsung QE55Q6FAM",
+      "cost": 2651,
+      "description": "semper nisi. Aenean vulputate eleifend tellus. Aen..",
+      "order": 3,
+      "img" : "samsung.jpg"
+    },
+    "9": {
+      "name": "Harley Davidson",
+      "cost": 2651,
+      "description": "semper nisi. Aenean vulputate eleifend tellus. Aen..",
+      "order": 3,
+      "img" : "Harley-Davidson.png"
+    }
+
+  }

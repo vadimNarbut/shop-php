@@ -1,0 +1,29 @@
+
+
+.form__elem{
+    width: 300px;
+    font-size: 25px;
+    height: 45px;
+    border-radius: 9px;
+    text-align: center;
+
+    margin-bottom: 22px;
+}
+
+.four__elem{
+    width: 500px;
+}
+
+.form__btn{
+    width: 300px;
+    font-size: 25px;
+    height: 45px;
+    border-radius: 9px;
+    text-align: center;
+    background: EBEBEB;
+    transition: background .5s;
+}
+
+.form__btn:hover{
+    background:  grey ;
+}

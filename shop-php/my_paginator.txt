@@ -1,0 +1,62 @@
+<?php
+                if ($products_exist == true) {
+                  echo '<div class="paginator">';
+                  if ($page > 1) {
+                    echo '<a href="/articles.php?page=' . ($page - 1) . '">Прошлая страница</a>';
+                  }
+                  if ($page < $total_pages) {
+                    echo '<a href="/articles.php?page=' . ($page + 1) . '">Следующая страница</a>';
+                  }
+
+                  echo '</div>';
+                }
+                ?>
+
+
+                <ul class="main__paginator">
+<li class="paginator__left"><a href="#">Left</a></li>
+<div class="paginator__page-number">
+  <li class="active"><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+</div>
+<li class="paginator__right"><a href="#">Right</a></li>
+</ul>
+
+<?php
+                    if($products_exist == true){
+                      echo '<ul class="main__paginator">';
+                      if($page < $total_pages){
+                        echo '<li class="paginator__left"><a href="/articles.php?page=' . ($page - 1) . '">Прошлая страница</a></li>';
+                      }
+                      if($page > 1){
+                        echo '<li class="paginator__left"><a href="/articles.php?page=' . ($page - 2) . '">Следующая страница</a></li>';
+                      }
+                    }
+                  ?>
+
+
+
+
+-----------------------------------------
+css
+  #paginator .paginator_bottom{
+    height: 50px;
+    background-color: black;
+    line-height: 50px;
+  }
+  #paginator .paginator_bottom ul > li {
+    display: inline-block;
+    margin-left: 34px;
+  }
+  #paginator .paginator_bottom ul > li > a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 3px 10px;
+  }
+  #paginator .paginator_bottom ul > li > a:hover{
+   border-top: 2px solid white;
+   border-bottom: 2px solid white;
+  }
